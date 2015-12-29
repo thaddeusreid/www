@@ -1,6 +1,5 @@
 # trs
-
-basic namespace for thaddeus reid
+basic namespace for [thaddeus reid](http://thaddeusreid.github.io/www/)
 
 ### Setup
 

@@ -269,6 +269,9 @@ body .footer p {
 body .wrapper {
   padding-bottom: 240px;
 }
+body .wrapper:last-child {
+  padding-bottom: 120px;
+}
 body .separator {
   height: 40px;
 }

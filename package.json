@@ -1,6 +1,7 @@
 {
   "name": "trs",
   "description": "basic namespace for thaddeus reid",
+  "version": "3.2.2",
   "dependencies": {
     "autoprefixer-stylus": "0.8.x",
     "axis": "0.5.x",

@@ -1,7 +1,104 @@
 @import '_settings'
+@import '../../node_modules/iconfonts/stylesheets/font-awesome'
 
 normalize-css()
 base()
-
+fa-font()
 body
-  padding: 50px
+  padding: $space-large $space-large $space-small
+  text-align: center
+  background-color: $white
+  color: $black
+  
+
+  h1
+    font-size: $text-xlarge
+    color: $red
+    margin-bottom: $space-small
+
+  h2
+    font-size: $text-large
+    color: $red
+
+  h3
+    color: $red
+    margin: 0px 0px $space-xsmall
+
+  h4
+    color: $red
+    margin: 0px 0px $space-medium
+    
+  p
+    margin-bottom: $space-large
+    line-height: 28px
+
+  a
+    color: $black
+    text-decoration: none
+    
+    &:hover,
+    &:focus
+      color: $red
+
+  .button
+    display: block
+    text-transform: uppercase
+    text-align: center
+    padding: $space-small $space-medium
+    margin: 0 auto
+    background-color: transparent
+    border: 1px solid $red
+    color: $red
+    max-width: 200px    
+
+    &:hover,
+    &:focus
+      color: $white
+      background-color: $red
+      border-color: $red
+
+  .content,
+  .footer
+    max-width: $container-width-max
+    margin: 0 auto
+
+  .footer
+    p
+      margin: 0px
+
+  .wrapper
+    padding-bottom: $space-xlarge*4
+
+  .separator
+    height: $space-large
+    
+  .projects
+    margin-bottom: $space-large
+    
+    .project
+      margin-bottom: $space-medium
+      
+      p
+        margin-top: 0px;
+        margin-bottom: $space-xsmall
+    
+  // util
+  .center
+    text-align: center
+  
+
+  .social-links
+    margin: $space-medium 0 0
+    
+    a
+      margin: 0 $space-small
+
+    .social-github
+      &:before
+        fa-icon("github");
+        font-size: $text-large
+    .social-twitter
+      &:before
+        fa-icon("twitter");
+        font-size: $text-large
+

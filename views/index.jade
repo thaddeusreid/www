@@ -1,31 +1,34 @@
 extends layout
 
 block content
-  h1 Thaddeus Reid
+  div(class="wrapper")
+    h1 Thaddeus Reid
+    h4
+      em Flagtaff, Arizona
 
-  div(class="separator")
+    p.
+      Hola, I'm a front end web developer with an interest in computers, design, filmmaking, homebrewing, and many other amazing forms of art/life. I would love to hear from you whether you're wanting to build something or have a great song to share.
 
-  p.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum exercitationem ea, itaque harum, vel culpa reiciendis veniam iure, soluta sunt quisquam quos. Vitae, labore dolorum est natus odio voluptate id!
+    a(href="#contact" class="button") get in touch
 
-  a(href="#")
-    button get in touch!!!
 
-  div(class="separator")
+  div(class="wrapper")
+    h2 Projects
 
-  h2 Projects
+    div(class="projects")
+      article(class="project")
+        header
+          h3 Project Title
+        p Description of work performed
+        p @collaborators
 
-  article(class="project")
-    header
-      h3 Project Title
-    p Description of work performed
-    p @collaborators
+    //- a(href="#" class="button") see more
 
-  a(href="#")
-    button see more
+  div(class="wrapper" id="contact")
+    h2 Talk To Me
 
-  div(class="separator")
+    a(href="mailto:hello@thaddeusreid.com") hello@thaddeusreid.com
 
-  h2 Talk To Me
-
-  a(href="mailto:hello@thaddeusreid.com") hello@thaddeusreid.com
+    div(class="social-links")
+      a(href="https://github.com/thaddeusreid" class="social-github")
+      a(href="https://twitter.com/thaddeusreid" class="social-twitter")

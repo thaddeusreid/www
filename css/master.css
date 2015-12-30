@@ -1,3 +1,16 @@
+body .social-links .social-github:before,
+body .social-links .social-twitter:before {
+  line-height: 1em;
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -179,15 +192,112 @@ html {
   font-size: 100%;
 }
 body {
-  font-family: "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
-  color: #555;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  color: #0e0e0e;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-size-adjust: auto;
 }
+@font-face {
+  font-family: "FontAwesome";
+  src: url("https://netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?v=4.2.0");
+  src: url("https://netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("https://netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("https://netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("https://netdna.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-  padding: 50px;
+  padding: 40px 40px 10px;
+  text-align: center;
+  background-color: #fff;
+  color: #0e0e0e;
+}
+body h1 {
+  font-size: 48px;
+  color: #ff4136;
+  margin-bottom: 10px;
+}
+body h2 {
+  font-size: 32px;
+  color: #ff4136;
+}
+body h3 {
+  color: #ff4136;
+  margin: 0px 0px 5px;
+}
+body h4 {
+  color: #ff4136;
+  margin: 0px 0px 20px;
+}
+body p {
+  margin-bottom: 40px;
+  line-height: 28px;
+}
+body a {
+  color: #0e0e0e;
+  text-decoration: none;
+}
+body a:hover,
+body a:focus {
+  color: #ff4136;
+}
+body .button {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid #ff4136;
+  color: #ff4136;
+  max-width: 200px;
+}
+body .button:hover,
+body .button:focus {
+  color: #fff;
+  background-color: #ff4136;
+  border-color: #ff4136;
+}
+body .content,
+body .footer {
+  max-width: 580px;
+  margin: 0 auto;
+}
+body .footer p {
+  margin: 0px;
+}
+body .wrapper {
+  padding-bottom: 240px;
+}
+body .separator {
+  height: 40px;
+}
+body .projects {
+  margin-bottom: 40px;
+}
+body .projects .project {
+  margin-bottom: 20px;
+}
+body .projects .project p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+body .center {
+  text-align: center;
+}
+body .social-links {
+  margin: 20px 0 0;
+}
+body .social-links a {
+  margin: 0 10px;
+}
+body .social-links .social-github:before {
+  content: "\f09b";
+  font-size: 32px;
+}
+body .social-links .social-twitter:before {
+  content: "\f099";
+  font-size: 32px;
 }
 
  /*# sourceMappingURL=master.css.map */

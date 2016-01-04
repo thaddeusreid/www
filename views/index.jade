@@ -16,11 +16,13 @@ block content
     h2 Projects
 
     div(class="projects")
-      article(class="project")
-        header
-          h3 Project Title
-        p Description of work performed
-        p @collaborators
+
+      each project in site.projects
+        div(class="project")
+          div(class="header")
+            h3= project.title
+          != project.content
+          p= project.collaborators
 
     //- a(href="#" class="button") see more
 

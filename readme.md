@@ -17,6 +17,4 @@ basic namespace for [thaddeus reid](http://thaddeusreid.github.io/www/)
 - To deploy your site with a single command, run `roots deploy -to XXX` with `XXX` being whichever [ship](https://github.com/carrot/ship#usage) deployer you want to use. -->
 
 ### to do
-- spelling errors (flagstaff)
-- add language/library proficiencies
-- add projects
+- add language proficiencies

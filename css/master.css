@@ -237,6 +237,14 @@ body a {
   color: #0e0e0e;
   text-decoration: none;
 }
+body a h3 {
+  color: #0e0e0e;
+  font-weight: normal;
+}
+body a h3:hover,
+body a h3:focus {
+  color: #ff4136;
+}
 body a:hover,
 body a:focus {
   color: #ff4136;

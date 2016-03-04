@@ -249,6 +249,9 @@ body a:hover,
 body a:focus {
   color: #ff4136;
 }
+body .logo {
+  max-width: 75px;
+}
 body .button {
   display: block;
   text-transform: uppercase;

@@ -278,6 +278,7 @@ body .footer p {
   margin: 0px;
 }
 body .wrapper {
+  padding-top: 60px;
   padding-bottom: 240px;
 }
 body .wrapper:last-child {

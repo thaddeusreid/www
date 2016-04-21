@@ -217,6 +217,13 @@ body h1 {
   color: #ff4136;
   margin-bottom: 10px;
 }
+body h1 a {
+  color: #ff4136;
+}
+body h1 a:hover,
+body h1 a:focus {
+  color: #0e0e0e;
+}
 body h2 {
   font-size: 32px;
   color: #ff4136;
@@ -232,6 +239,13 @@ body h4 {
 body p {
   margin-bottom: 40px;
   line-height: 28px;
+}
+body p a {
+  border-bottom: 1px #0e0e0e dotted;
+}
+body p a:hover,
+body p a:focus {
+  border-color: #ff4136;
 }
 body a {
   color: #0e0e0e;

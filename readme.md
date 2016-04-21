@@ -17,4 +17,5 @@ basic namespace for [thaddeus reid](http://thaddeusreid.github.io/www/)
 - deploy: `roots deploy -to gh-pages public`
 
 ### to do
-- add language proficiencies
+- create view for single project
+- add further details to projects

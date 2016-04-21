@@ -15,6 +15,13 @@ body
     font-size: $text-xlarge
     color: $red
     margin-bottom: $space-small
+    
+    a
+      color: $red
+      
+      &:hover,
+      &:focus
+        color: $black
 
   h2
     font-size: $text-large
@@ -31,6 +38,13 @@ body
   p
     margin-bottom: $space-large
     line-height: 28px
+    
+    a
+      border-bottom: 1px $black dotted
+
+      &:hover,
+      &:focus
+        border-color: $red
 
   a
     color: $black

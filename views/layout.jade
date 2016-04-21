@@ -10,7 +10,7 @@ html
     //- uncomment if your site is responsive!
     meta(name="viewport" content="width=device-width, initial-scale=1")
 
-    != css()
+    != css('/')
 
     block title
       title thaddeus reid | web developer and designer living in flagstaff, arizona
@@ -18,12 +18,13 @@ html
     body
 
       div(class="content")
+        h1 Thaddeus Reid
         //- img(src="img/logo2.png", alt="thaddeus reid's logo" class="logo")
         block content
 
       div(class="footer")
         p 2016
 
-      != js()
+      != js('/')
 
 

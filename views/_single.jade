@@ -14,14 +14,14 @@ html
     div(class="content")
       div(class="wrapper project")
 
-        h2 
+        h2
           a(href='/#projects') &laquo; thaddeus reid
         h1
           a(href=post.url title=post.title target="_blank")=post.title
 
         block content
 
-        a(href=post.url title=post.title target="_blank" class="button") see the website
-
+        if post.url
+          a(href=post.url title=post.title target="_blank" class="button") see the website
 
     != js('/')

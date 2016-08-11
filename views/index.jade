@@ -16,7 +16,7 @@ block content
 
     div(id="projects" class="projects")
 
-      
+
       each project in site.projects.reverse()
         unless project.isDraft
           div(class="project")
@@ -24,12 +24,12 @@ block content
               if project.isSingle
                 a(href=project._url title=project.title): h3=project.title
               else
-                a(href=project.url title=project.title): h3=project.title                
+                a(href=project.url title=project.title): h3=project.title
             //- != project.content
             //- if project.collaborators
               each collab in project.collaborators
                 a(href=collab.url)= collab.name
-            
+
 
     //- a(href="#" class="button") see more
 
@@ -40,4 +40,5 @@ block content
 
     div(class="social-links")
       a(href="https://github.com/thaddeusreid" class="social-github" target="_blank")
+      a(href="https://linkedin.com/in/thaddeusstewart" class="social-linkedin" target="_blank")
       //- a(href="https://twitter.com/thaddeus_reid" class="social-twitter" target="_blank")

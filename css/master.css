@@ -1,5 +1,6 @@
 body .social-links .social-github:before,
-body .social-links .social-twitter:before {
+body .social-links .social-twitter:before,
+body .social-links .social-linkedin:before {
   line-height: 1em;
   font-family: "FontAwesome";
   font-weight: normal;
@@ -326,5 +327,9 @@ body .social-links .social-github:before {
 }
 body .social-links .social-twitter:before {
   content: "\f099";
+  font-size: 32px;
+}
+body .social-links .social-linkedin:before {
+  content: "\f0e1";
   font-size: 32px;
 }

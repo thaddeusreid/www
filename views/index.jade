@@ -1,29 +1,21 @@
 extends layout
 
 block content
-  div(class="wrapper")
-    h4
-      em Portland, OR
-
+  //- div(class="wrapper")
     p.
-      Hi, I'm a developer who builds responsive websites and web applications. If you're interested in building something together, give me a shout.
+      Hi, I'm a developer who builds responsive websites and web applications. Things are a bit busy
 
-    a(href="#contact" class="button") get in touch
-
+    //- a(href="#contact" class="button") get in touch
 
   div(class="wrapper")
     h2 Projects
 
     div(id="projects" class="projects")
 
-
       each project in site.projects.reverse()
         unless project.isDraft
           div(class="project")
             div(class="header")
-              if project.isSingle
-                a(href=project._url title=project.title): h3=project.title
-              else
                 a(href=project.url title=project.title): h3=project.title
             //- != project.content
             //- if project.collaborators
@@ -33,12 +25,4 @@ block content
 
     //- a(href="#" class="button") see more
 
-  div(class="wrapper" id="contact")
-    h2 Talk To Me
-
-    a(href="mailto:hello@thaddeusreid.com") hello@thaddeusreid.com
-
-    div(class="social-links")
-      a(href="https://github.com/thaddeusreid" class="social-github" target="_blank")
-      a(href="https://linkedin.com/in/thaddeusstewart" class="social-linkedin" target="_blank")
-      //- a(href="https://twitter.com/thaddeus_reid" class="social-twitter" target="_blank")
+  include footer

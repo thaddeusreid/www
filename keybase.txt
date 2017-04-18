@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/thaddeusreid
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://thaddeusreid.com
+  * I am thaddeusreid (https://keybase.io/thaddeusreid) on keybase.
+  * I have a public key ASDt2_J7QZUt3MEMqFXFQwmB0W8aF_4ECtH6P0AtGVDQ2wo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120eddbf27b41952ddcc10ca855c5430981d16f1a17fe040ad1fa3f402d1950d0db0a",
+            "host": "keybase.io",
+            "kid": "0120eddbf27b41952ddcc10ca855c5430981d16f1a17fe040ad1fa3f402d1950d0db0a",
+            "uid": "0e4077cc23568361105ff36ca1722619",
+            "username": "thaddeusreid"
+        },
+        "service": {
+            "hostname": "thaddeusreid.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.21"
+    },
+    "ctime": 1492492047,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1492492038,
+        "hash": "826896497000dc59def40aa564543fc318da21876bf57617ca9649ee40260de0e6f424e9133c9c3ed63fc18f371cd6e193abc97ef42ba4117956770eb37c0c69",
+        "seqno": 1025422
+    },
+    "prev": "8a1328854abedb4dfaead114efada6c512a1d078d5236332472d63b993c56efc",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7dvye0GVLdzBDKhVxUMJgdFvGhf+BArR+j9ALRlQ0NsKp3BheWxvYWTFAvx7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZWRkYmYyN2I0MTk1MmRkY2MxMGNhODU1YzU0MzA5ODFkMTZmMWExN2ZlMDQwYWQxZmEzZjQwMmQxOTUwZDBkYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZWRkYmYyN2I0MTk1MmRkY2MxMGNhODU1YzU0MzA5ODFkMTZmMWExN2ZlMDQwYWQxZmEzZjQwMmQxOTUwZDBkYjBhIiwidWlkIjoiMGU0MDc3Y2MyMzU2ODM2MTEwNWZmMzZjYTE3MjI2MTkiLCJ1c2VybmFtZSI6InRoYWRkZXVzcmVpZCJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoidGhhZGRldXNyZWlkLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjEifSwiY3RpbWUiOjE0OTI0OTIwNDcsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5MjQ5MjAzOCwiaGFzaCI6IjgyNjg5NjQ5NzAwMGRjNTlkZWY0MGFhNTY0NTQzZmMzMThkYTIxODc2YmY1NzYxN2NhOTY0OWVlNDAyNjBkZTBlNmY0MjRlOTEzM2M5YzNlZDYzZmMxOGYzNzFjZDZlMTkzYWJjOTdlZjQyYmE0MTE3OTU2NzcwZWIzN2MwYzY5Iiwic2Vxbm8iOjEwMjU0MjJ9LCJwcmV2IjoiOGExMzI4ODU0YWJlZGI0ZGZhZWFkMTE0ZWZhZGE2YzUxMmExZDA3OGQ1MjM2MzMyNDcyZDYzYjk5M2M1NmVmYyIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQJfuuLBOvvMFArKZY8wifLzt38Srz/mbnaMJKzrdslnK4rg0li/XRjrqdTbXIreA6yZqsVpxhg631vNBMpMFUA6oc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBA3fGGDu+gr619vVMAEyWSVZOUKIuOTS6AdGZaXH69PKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thaddeusreid
+
+==================================================================

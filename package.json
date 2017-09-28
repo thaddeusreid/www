@@ -3,11 +3,15 @@
   "description": "web presence for thaddeus reid",
   "version": "1.0.0",
   "dependencies": {
-    "gh-pages": "^1.0.0",
-    "iconfonts": "^0.12.0",
+    "gh-pages": "latest",
+    "iconfonts": "latest",
     "pug": "latest",
-    "pug-cli": "latest",
     "stylus": "latest"
+  },
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/thaddeusreid/www.git"
   },
   "scripts": {
     "build": "node app.js"

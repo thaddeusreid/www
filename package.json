@@ -17,6 +17,6 @@
     "build": "node app.js",
     "clean": "rm -rf dist",
     "predeploy": "npm run clean && npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -m \"Deployment: $(date)\""
   }
 }

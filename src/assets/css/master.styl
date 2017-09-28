@@ -1,15 +1,16 @@
 @import '_settings'
-@import '../../node_modules/iconfonts/stylesheets/font-awesome'
+@import 'font-awesome'
 
 normalize-css()
 base()
 fa-font()
+
 body
   padding: $space-large $space-large $space-small
   text-align: center
   background-color: $white
   color: $black
-
+  font-family: $font-stack
 
   h1
     font-size: $text-xlarge
@@ -86,6 +87,9 @@ body
   .footer
     max-width: $container-width-max
     margin: 0 auto
+
+  .content
+    min-height: 80vh
 
   .footer
     p

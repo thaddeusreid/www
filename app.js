@@ -12,13 +12,15 @@ function writeFile(filename, data) {
   });
 }
 
+
+// build the `dist` directory if it doesn't exist
 if (!fs.existsSync(buildDir)) fs.mkdirSync(buildDir);
 
-const html = pug.renderFile(path.join(__dirname, 'src', 'views', 'index.pug'));
-writeFile('index.html', html);
+// tranform pug -> html
+writeFile('index.html', pug.renderFile(path.join(__dirname, 'src', 'views', 'index.pug')));
 
-const data = fs.readFileSync(path.join(cssDir, 'master.styl'), { encoding: 'utf8' });
-stylus(data)
+// transform stylus -> css
+stylus(fs.readFileSync(path.join(cssDir, 'master.styl'), { encoding: 'utf8' }))
   .include(cssDir)
   .include(path.join(__dirname, 'node_modules', 'iconfonts', 'stylesheets'))
   .render((err, css) => {
@@ -26,4 +28,5 @@ stylus(data)
     writeFile('styles.css', css);
   });
 
+// include CNAME for gh-pages DNS resolution
 writeFile('CNAME', 'thaddeusreid.com');

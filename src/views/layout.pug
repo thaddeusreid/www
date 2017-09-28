@@ -10,21 +10,22 @@ html
     //- uncomment if your site is responsive!
     meta(name="viewport" content="width=device-width, initial-scale=1")
 
-    != css('/')
+    //- != css('/')
+    link(rel="stylesheet" href="styles.css")
 
     block title
       title thaddeus reid | javascript developer | portland, oregon
 
-    body
+  body
 
-      div(class="content")
-        h1 Thaddeus Reid
-        h4
-          em Portland, OR
-        //- img(src="img/logo2.png", alt="thaddeus reid's logo" class="logo")
-        block content
+    div(class="content")
+      h1 Thaddeus Reid
+      h4
+        em Portland, OR
+      //- img(src="img/logo2.png", alt="thaddeus reid's logo" class="logo")
+      block content
 
-      div(class="footer")
-        p 2017
+    div(class="footer")
+      p 2017
 
-      != js('/')
+    //- != js('/')

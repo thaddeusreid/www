@@ -1,0 +1,152 @@
+body .social-links .social-github:before,
+body .social-links .social-twitter:before,
+body .social-links .social-linkedin:before {
+  line-height: 1em;
+  font-family: "FontAwesome";
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "FontAwesome";
+  src: url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  padding: 40px 40px 10px;
+  text-align: center;
+  background-color: #fff;
+  color: #0e0e0e;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+}
+body h1 {
+  font-size: 48px;
+  color: #ff4136;
+  margin-bottom: 10px;
+}
+body h1 a {
+  color: #ff4136;
+}
+body h1 a:hover,
+body h1 a:focus {
+  color: #0e0e0e;
+}
+body h2 {
+  font-size: 32px;
+  color: #ff4136;
+}
+body h3 {
+  color: #ff4136;
+  margin: 0px 0px 5px;
+}
+body h4 {
+  color: #ff4136;
+  margin: 0px 0px 20px;
+}
+body p {
+  margin-bottom: 40px;
+  line-height: 28px;
+}
+body p a {
+  border-bottom: 1px #0e0e0e dotted;
+}
+body p a:hover,
+body p a:focus {
+  border-color: #ff4136;
+}
+body a {
+  color: #0e0e0e;
+  text-decoration: none;
+}
+body a h3 {
+  color: #0e0e0e;
+  font-weight: normal;
+}
+body a h3:hover,
+body a h3:focus {
+  color: #ff4136;
+}
+body a:hover,
+body a:focus {
+  color: #ff4136;
+}
+body .logo {
+  max-width: 75px;
+}
+body .button {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 0 auto;
+  background-color: transparent;
+  border: 1px solid #ff4136;
+  color: #ff4136;
+  max-width: 200px;
+}
+body .button:hover,
+body .button:focus {
+  color: #fff;
+  background-color: #ff4136;
+  border-color: #ff4136;
+}
+body .content,
+body .footer {
+  max-width: 580px;
+  margin: 0 auto;
+}
+body .content {
+  min-height: 80vh;
+}
+body .footer p {
+  margin: 0px;
+}
+body .wrapper {
+  padding-top: 60px;
+  padding-bottom: 240px;
+}
+body .wrapper:last-child {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+body .separator {
+  height: 40px;
+}
+body .projects {
+  margin-bottom: 40px;
+}
+body .projects .project {
+  margin-bottom: 20px;
+}
+body .projects .project p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+body .center {
+  text-align: center;
+}
+body .social-links {
+  margin: 20px 0 0;
+}
+body .social-links a {
+  margin: 0 10px;
+}
+body .social-links .social-github:before {
+  content: "\f09b";
+  font-size: 32px;
+}
+body .social-links .social-twitter:before {
+  content: "\f099";
+  font-size: 32px;
+}
+body .social-links .social-linkedin:before {
+  content: "\f0e1";
+  font-size: 32px;
+}

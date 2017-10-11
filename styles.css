@@ -20,7 +20,7 @@ body .social-links .social-linkedin:before {
   font-style: normal;
 }
 body {
-  padding: 40px 40px 10px;
+  padding: 60px 40px 10px;
   text-align: center;
   background-color: #fff;
   color: #0e0e0e;
@@ -28,7 +28,6 @@ body {
 }
 body h1 {
   font-size: 48px;
-  color: #ff4136;
   margin-bottom: 10px;
 }
 body h1 a {
@@ -40,14 +39,11 @@ body h1 a:focus {
 }
 body h2 {
   font-size: 32px;
-  color: #ff4136;
 }
 body h3 {
-  color: #ff4136;
   margin: 0px 0px 5px;
 }
 body h4 {
-  color: #ff4136;
   margin: 0px 0px 20px;
 }
 body p {

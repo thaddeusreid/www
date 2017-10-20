@@ -1,5 +1,14 @@
 # TODO
+* minify html/css/js in prod
+* add reset css
+* autoprefix css
+* lint css (?)
+* utilize 'base.html'
+* google analytics
 * add tests
+  - validate html/css (w3c)
+  - unit tests (app.js)
+  - integration tests (url)
 * write a better bio
   - this task relies on business goals to present 'thaddeus reid' in the correct light: am I attempting to get hired? do i want to direct visitors to real code/projects?
   - should profile relevant proficiencies:

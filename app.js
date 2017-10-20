@@ -14,6 +14,12 @@ function writeFile(filename, data) {
   });
 }
 
+/**
+ * * * * * *
+ * EXECUTE *
+ * * * * * *
+ */
+
 // build the `dist` directory if it doesn't exist
 if (!fs.existsSync(buildDir)) fs.mkdirSync(buildDir);
 

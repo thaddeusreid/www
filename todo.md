@@ -6,7 +6,8 @@
 * utilize 'base.html'
 * google analytics
 * add tests
-  - validate html/css (w3c)
+  - validate html: (gethead.info)[https://gethead.info/] (thedaviddias)[https://github.com/thedaviddias/Front-End-Checklist]
+  - validate css (w3c)[https://jigsaw.w3.org/css-validator/]
   - unit tests (app.js)
   - integration tests (url)
 * write a better bio
